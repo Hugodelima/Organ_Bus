@@ -1,0 +1,52 @@
+
+
+.msg-erro {
+      color: red;
+}
+
+
+
+#form-contato{
+  margin: 100px auto;
+  text-align: center;
+  font-size: 30px;
+}
+
+#form-contato form {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+#form-contato label {
+  text-align: center;
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+#email, #senha, #senha2{
+  font-size: 20px;
+  text-align: center;
+  align-items: center;
+  width: 20%;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  margin-bottom: 20px;
+}
+
+.btn{
+  display: block;
+  margin: 40px auto;
+  align-items: center;
+  background-color: #0d3e87;
+  color: #fff;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
