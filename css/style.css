@@ -1,52 +1,124 @@
-
-
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  color: white;
+}
 .msg-erro {
-      color: red;
+  color: red;
 }
-
-
-
-#form-contato{
-  margin: 100px auto;
+body{
+  background-color: #202020;
+}
+.text_org{
+  margin-top: 4rem;
+  color: white;
   text-align: center;
-  font-size: 30px;
 }
-
-#form-contato form {
-  max-width: 500px;
-  margin: 0 auto;
-}
-
-#form-contato label {
-  text-align: center;
-  display: block;
-  margin-bottom: 10px;
-  font-weight: bold;
-}
-
 #email, #senha, #senha2{
+  font-size: 20px;
+  text-align: left;
+  align-items: center;
+  width: 20%;
+  padding: 0.5rem;
+  border-radius: 5px;
+  border: 1px solid #ffffff;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.lop {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: #020e1f;
+}
+.lop2 {
+  display: flex;
+  flex-direction: column;
+  margin-top: 2rem;
+  border-radius: 10px;
+  padding: 10px;
+  width: 100%;
+  background-color: #020e1f;
+  color: white;
+}
+
+
+.lop label {
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: white;
+  margin-bottom: 1.3rem;
+}
+
+.lop input[type="email"] {
+  border: none;
+  padding: 5px;
+}
+
+
+
+.image_bus{
+  width: 100%;
+}
+
+.request{
+  display: flex;
+  justify-content: center;
+  margin-top: 0.7rem;
+}
+
+
+
+.entry{
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+  text-align: center;
+}
+.entry2{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.entry button[type="submit"], .entry2 button[type="submit"]{
   font-size: 20px;
   text-align: center;
   align-items: center;
   width: 20%;
-  padding: 15px;
+  padding: 0.5rem;
   border-radius: 5px;
-  border: 1px solid #ccc;
+  border: 1px solid #88b9fe;
   margin-bottom: 20px;
+  width: 100%;
+  background-color: #88b9fe;
+  width: 100%;
+}
+.entry2 a{
+  width: 100%;
 }
 
-.btn{
-  display: block;
-  margin: 40px auto;
-  align-items: center;
-  background-color: #0d3e87;
-  color: #fff;
-  padding: 20px;
-  border: none;
-  border-radius: 5px;
-  font-size: 16px;
-  cursor: pointer;
+
+
+
+#mostrar-senha{
+  width: 100%;
 }
+
+
+
+
+
+
+
+
+
 
 
 
